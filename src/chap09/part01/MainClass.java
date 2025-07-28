@@ -1,4 +1,4 @@
-package java_ch09_20250728;
+package chap09.part01;
 
 public class MainClass {
 
@@ -18,6 +18,10 @@ public class MainClass {
 		
 		a.methodLocal();
 		
+		
+		Button btn = new Button();
+		btn.setListner(new CallListner());
+		btn.touch();
 	}
 
 }

@@ -1,4 +1,4 @@
-package java_ch09_20250728;
+package chap09.part01;
 
 public class A {
 
